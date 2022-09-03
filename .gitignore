@@ -9,7 +9,17 @@
 /coverage
 
 # next.js
-/.next/
+/.next/#MacOS
+.DS_Store
+
+#IDE
+.vscode
+.idea
+*.iml
+
+#Lock files
+package-lock.json
+yarn.lock
 /out/
 
 # production
@@ -34,3 +44,14 @@ yarn-error.log*
 # typescript
 *.tsbuildinfo
 next-env.d.ts
+#MacOS
+.DS_Store
+
+#IDE
+.vscode
+.idea
+*.iml
+
+#Lock files
+package-lock.json
+yarn.lock
